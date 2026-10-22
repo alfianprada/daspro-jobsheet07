@@ -1,3 +1,6 @@
+//harga kopi=10000+(3 mod 5)x 1000=13000
+//hargaTeh=5000+(3 mod 4)x1000=8000
+//hargaRoti=15000+(3 mod 6)x1000=18000
 
 import java.util.Scanner;
 
@@ -5,7 +8,7 @@ public class KafeDoWhile03 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int kopi,teh,roti,totalHarga;
-        int hargaKopi=12000,hargaTeh=7000,hargaRoti=20000;
+        int hargaKopi=13000,hargaTeh=8000,hargaRoti=18000;
         String namaPelanggan;
         do {
             System.out.print("Masukkan nama pelanggan (ketik 'batal' untuk keluar): ");
